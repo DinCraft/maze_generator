@@ -6,7 +6,7 @@
 
 struct graph {
   int cols, rows;
-  int *verticies;
+  int *edges;
 };
 
 void create_graph(struct graph *graph, int cols, int rows);

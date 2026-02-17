@@ -7,10 +7,12 @@
 void create_graph(struct graph *g, int cols, int rows) {
   g->cols = cols;
   g->rows = rows;
-  g->verticies = malloc(sizeof(int) * pow(cols * rows, 2));
+  g->edges = malloc(sizeof(int) * cols * rows);
+  int i = 0;
   for (int x = 0; x < cols; x++) {
     for (int y = 0; y < rows; y++) {
-      g->verticies[x * rows + y] = 0;
+      g->edges[i] = 0;
+      i++;
     }
   }
 }

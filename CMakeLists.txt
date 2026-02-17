@@ -5,6 +5,7 @@ project(maze_generator)
 set(SOURCES
   src/main.c
   src/vertex.c
+  src/edge.c
   src/graph.c
 )
 
