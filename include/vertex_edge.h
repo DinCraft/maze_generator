@@ -1,5 +1,5 @@
-#ifndef EDGE_H
-#define EDGE_H
+#ifndef VERTEX_EDGE_H
+#define VERTEX_EDGE_H
 
 #include "graph.h"
 

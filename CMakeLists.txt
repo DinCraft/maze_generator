@@ -6,6 +6,7 @@ set(SOURCES
   src/main.c
   src/vertex_edge.c
   src/graph.c
+  src/kruskal.c
 )
 
 add_executable(${PROJECT_NAME} ${SOURCES})
