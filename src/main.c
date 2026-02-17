@@ -1,7 +1,6 @@
 #include "stdio.h"
-#include "../include/vertex.h"
 #include "../include/graph.h"
-#include "../include/edge.h"
+#include "../include/vertex_edge.h"
 
 int main(int argc, char *argv[])
 {

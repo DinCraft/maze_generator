@@ -1,7 +1,6 @@
 #ifndef GRAPH_H
 #define GRAPH_H
 
-#include "vertex.h"
 #include "stdlib.h"
 
 struct graph {

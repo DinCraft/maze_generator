@@ -1,4 +1,3 @@
-#include "../include/edge.h"
 #include "../include/graph.h"
 
 void e_to_v(struct graph *g, int e, int **result) {
