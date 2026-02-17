@@ -3,6 +3,8 @@
 
 #include "graph.h"
 
-int* v_to_e(struct graph *g, int v);
+void e_to_v(struct graph *g, int v, int **result);
+
+void v_to_e(struct graph *g, int e, int **result);
 
 #endif
